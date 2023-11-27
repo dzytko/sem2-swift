@@ -12,7 +12,7 @@ class MemoryGameViewModel: ObservableObject {
     static var themes = [
         Theme(id: 0, name: "Theme 1", color: .blue, cardsContent: ["a", "b", "c"], icon: "smiley"),
         Theme(id: 1, name: "Theme 2", color: .red, cardsContent: ["d", "e", "f"], icon: "smiley"),
-        Theme(id: 2, name: "Theme 3", color: .green, cardsContent: ["g", "h", "i"], icon: "smiley")
+        Theme(id: 2, name: "Theme 3", color: .green, cardsContent: ["g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q"], icon: "smiley")
     ]
     static var defaultTheme: Theme {
         return themes[0]

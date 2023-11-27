@@ -18,7 +18,7 @@ struct ContentView: View {
     var cardDisplay: some View {
         LazyVGrid(columns: [GridItem(.adaptive(minimum: 75))], spacing: 0) {
             ForEach(viewModel.cards) { card in
-                CardView(isFaceUp: card.isFaceUp, content: card.content, cardColor: viewModel.selectedTheme.color)
+                CardView(card: card, color: viewModel.selectedTheme.color)
                     .aspectRatio(2 / 3, contentMode: .fill)
                     .padding(4)
                     .onTapGesture {viewModel.chooseCard(card: card)}
