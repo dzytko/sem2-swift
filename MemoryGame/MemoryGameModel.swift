@@ -2,6 +2,7 @@ import SwiftUI
 
 struct Card<CardContent> : Identifiable where CardContent: Equatable {
     var id: String
+    var bonusRemaining: Double = 100
     var isFaceUp: Bool = false
     var isMatched: Bool = false
     var content: CardContent

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0069CD152B1F617F00574E9A /* CirclePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069CD142B1F617F00574E9A /* CirclePart.swift */; };
+		0069CD172B1F62DD00574E9A /* TransformIntoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069CD162B1F62DD00574E9A /* TransformIntoCard.swift */; };
 		00B3E3992B13BD10006DDCDC /* MemoryGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3E3982B13BD10006DDCDC /* MemoryGameApp.swift */; };
 		00B3E39B2B13BD10006DDCDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3E39A2B13BD10006DDCDC /* ContentView.swift */; };
 		00B3E39D2B13BD10006DDCDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B3E39C2B13BD10006DDCDC /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0069CD142B1F617F00574E9A /* CirclePart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePart.swift; sourceTree = "<group>"; };
+		0069CD162B1F62DD00574E9A /* TransformIntoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformIntoCard.swift; sourceTree = "<group>"; };
 		00B3E3952B13BD10006DDCDC /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B3E3982B13BD10006DDCDC /* MemoryGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameApp.swift; sourceTree = "<group>"; };
 		00B3E39A2B13BD10006DDCDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				00B3E3A92B13CE94006DDCDC /* MemoryGameModel.swift */,
 				00B3E3AB2B13CF56006DDCDC /* MemoryGameViewModel.swift */,
 				00B3E3AD2B13D414006DDCDC /* ThemeButton.swift */,
+				0069CD142B1F617F00574E9A /* CirclePart.swift */,
+				0069CD162B1F62DD00574E9A /* TransformIntoCard.swift */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -153,6 +159,8 @@
 			files = (
 				00B3E3AA2B13CE94006DDCDC /* MemoryGameModel.swift in Sources */,
 				00B3E39B2B13BD10006DDCDC /* ContentView.swift in Sources */,
+				0069CD172B1F62DD00574E9A /* TransformIntoCard.swift in Sources */,
+				0069CD152B1F617F00574E9A /* CirclePart.swift in Sources */,
 				00B3E3AC2B13CF56006DDCDC /* MemoryGameViewModel.swift in Sources */,
 				00B3E3A82B13BD72006DDCDC /* CardView.swift in Sources */,
 				00B3E3992B13BD10006DDCDC /* MemoryGameApp.swift in Sources */,
